@@ -230,6 +230,12 @@ a:hover {
   .portfolio .row .col img {
     width: 100%;
   }
+  .contact {
+    padding: 20px 0;
+  }
+  .contact-info h2 {
+    margin: 0;
+  }
 }
 
 /* Desktop view */
