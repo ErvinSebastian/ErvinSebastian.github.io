@@ -58,44 +58,43 @@ a:hover {
 }
 
 /* about content */
-.about {
-  background-color: #ffffff;
-}
-.about .about-content {
+
+.about-content {
   display: flex;
   flex-direction: column;
-  padding: 50px 200px;
   align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: azure;
 }
-.about .about-content .profile-logo {
+.about-content .profile-logo {
   border-radius: 50%;
-  width: 150px;
 }
-.about .about-content p {
+.about-content p {
   font-family: "Prompt", sans-serif;
   color: black;
   font-size: 24px;
   text-align: center;
-  margin: 0 100px;
+  margin: 0 300px;
 }
-.about .about-content .front-techs,
+.about-content .front-techs,
 .back-techs {
   list-style: none;
   display: flex;
   padding: 0;
   margin-top: 50px;
 }
-.about .about-content .front-techs li,
+.about-content .front-techs li,
 .back-techs li {
   margin: auto 15px;
 }
-.about .about-content .front-techs img,
+.about-content .front-techs img,
 .back-techs img {
   height: 50px;
   width: auto;
   border-radius: 3px;
 }
-.about .about-content p span {
+.about-content p span {
   color: #cc5500;
 }
 .content {
@@ -204,18 +203,16 @@ a:hover {
   }
   .content {
     display: flex;
-    height: 90vh;
     flex-direction: column;
   }
 
-  .about .about-content {
+  .about-content {
     display: flex;
-    flex-direction: column;
-    padding: 30px 10px;
+
     align-items: center;
     margin-top: -50px;
   }
-  .about .about-content p {
+  .about-content p {
     font-family: "Prompt", sans-serif;
     color: black;
     font-size: 24px;
